@@ -3,4 +3,4 @@ project(task_2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(task_2 main.c quick_sort.c quick_sort.h)
+add_executable(task_2 main.c quick_sort.c quick_sort.h binary_search.c binary_search.h)
