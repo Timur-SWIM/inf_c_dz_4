@@ -64,6 +64,12 @@ build CMakeFiles/task_2.dir/binary_search.c.o: C_COMPILER__task_2_Debug /Users/m
   OBJECT_DIR = CMakeFiles/task_2.dir
   OBJECT_FILE_DIR = CMakeFiles/task_2.dir
 
+build CMakeFiles/task_2.dir/chek.c.o: C_COMPILER__task_2_Debug /Users/mac/Desktop/Project/C/inf_labs/dz_4/task_2/chek.c || cmake_object_order_depends_target_task_2
+  DEP_FILE = CMakeFiles/task_2.dir/chek.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/task_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/task_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target task_2
@@ -72,7 +78,7 @@ build CMakeFiles/task_2.dir/binary_search.c.o: C_COMPILER__task_2_Debug /Users/m
 #############################################
 # Link the executable task_2
 
-build task_2: C_EXECUTABLE_LINKER__task_2_Debug CMakeFiles/task_2.dir/main.c.o CMakeFiles/task_2.dir/quick_sort.c.o CMakeFiles/task_2.dir/binary_search.c.o
+build task_2: C_EXECUTABLE_LINKER__task_2_Debug CMakeFiles/task_2.dir/main.c.o CMakeFiles/task_2.dir/quick_sort.c.o CMakeFiles/task_2.dir/binary_search.c.o CMakeFiles/task_2.dir/chek.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/task_2.dir
   POST_BUILD = :
