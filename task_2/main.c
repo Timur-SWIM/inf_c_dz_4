@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "quick_sort.h"
-#include "binary_search.h"
-#include "chek.h"
+#include "main.h"
 
 int main(int argc, char *argv[]) {
     check(argc, &argv[2], atoi(argv[1]));
